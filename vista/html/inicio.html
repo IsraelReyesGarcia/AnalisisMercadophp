@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio Base de Datos DIstribuida</title>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        <h2>Ingrese sus datos por favor:</h2>
+        <form action="Controlador/inicio.php" method="post">
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Idioma</th>
+                    <th>Región</th>
+                    <th>Producto</th>
+                    <th>Mercado</th>
+                    <th>Id mercado</th>
+                 </tr>
+                  <tr>
+                      <td><input type="text" autofocus required placeholder = "Nombre" name="nombre">
+                      <td><input type="text" required placeholder = "Idioma" name="idioma"></td>
+                      <td><input type="text" required placeholder = "Región" name="region"></td>
+                      <td><input type="text" required placeholder = "Productos" name="productos"></td>
+                      <td><input type="text" required placeholder = "Mercado" name="mercado"></td>
+                      <td><input type="text" required placeholder = "Id mercado" name="idMercado"></td>
+                  </tr>
+            </table>
+            <input type="submit" value="enviar">
+
+        </form>
+    </body>
+</html>
